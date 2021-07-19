@@ -1,0 +1,38 @@
+
+header{
+    background-color: rgb(206, 240, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(55, 158, 226);
+    color: ivory;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+ 
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5px;
+    border-radius: 10px;
+}
+aside{
+    grid-column: 1/2;
+    background-color: rgb(136, 197, 212);
+    margin: 5px;
+    border-radius: 10px;
+}
+section{
+    grid-column: 2/5;
+    background-color: rgb(136, 197, 212);
+    margin: 5px;
+    border-radius: 10px;
+
+}
